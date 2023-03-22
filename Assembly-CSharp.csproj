@@ -58,6 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\Script\FollowCamera.cs" />
+    <Compile Include="Assets\Script\Monster\Monster.cs" />
+    <Compile Include="Assets\Script\Monster\Goblin.cs" />
+    <Compile Include="Assets\Script\Monster\Slime.cs" />
+    <Compile Include="Assets\Script\Monster\IAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
