@@ -9,9 +9,4 @@ public class Goblin : Monster
         health = 100;
         attack = 5;
     }
-
-    override public void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-    }
 }

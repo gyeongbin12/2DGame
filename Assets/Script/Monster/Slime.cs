@@ -9,9 +9,4 @@ public class Slime : Monster
         health = 50;
         attack = 1;
     }
-
-    override public void OnTriggerEnter2D(Collider2D collision)
-    {
-
-    }
 }

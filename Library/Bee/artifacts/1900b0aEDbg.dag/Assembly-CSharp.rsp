@@ -379,6 +379,7 @@
 "Assets/Script/Monster/Monster.cs"
 "Assets/Script/Monster/Slime.cs"
 "Assets/Script/Player.cs"
+"Assets/Script/SceneMoveManager.cs"
 -langversion:9.0
 
 /deterministic
