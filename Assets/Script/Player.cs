@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
     {
         IAttack obj = collision.GetComponent<IAttack>();
 
-        Monster monster = collision.GetComponent<Monster>();
+        var monster = collision.GetComponent<Monster>();
 
         if (obj != null)
         {

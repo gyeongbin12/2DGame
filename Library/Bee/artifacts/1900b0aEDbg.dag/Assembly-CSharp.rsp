@@ -377,6 +377,7 @@
 "Assets/Script/FollowCamera.cs"
 "Assets/Script/Monster/Goblin.cs"
 "Assets/Script/Monster/IAttack.cs"
+"Assets/Script/Monster/MemoryPool.cs"
 "Assets/Script/Monster/Monster.cs"
 "Assets/Script/Monster/Slime.cs"
 "Assets/Script/Player.cs"

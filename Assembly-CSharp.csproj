@@ -64,6 +64,7 @@
     <Compile Include="Assets\Script\Monster\IAttack.cs" />
     <Compile Include="Assets\Script\SceneMoveManager.cs" />
     <Compile Include="Assets\Script\FollowCamera.cs" />
+    <Compile Include="Assets\Script\Monster\MemoryPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

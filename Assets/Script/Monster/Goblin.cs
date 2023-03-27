@@ -12,6 +12,11 @@ public class Goblin : Monster
         base.Start();
     }
 
+    public override void Use()
+    {
+        memoryPool.DeactivatePoolItem(gameObject);
+    }
+
     public void Update()
     {
         direction = transform.position - player.position;

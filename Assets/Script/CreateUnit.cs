@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class CreateUnit : MonoBehaviour
 {
+    private MemoryPool memoryPool;
     private string[] unitName = new string[2];
 
-    void Start()
+    private void Awake()
     {
         unitName[0] = "Goblin";
         unitName[1] = "Slime";
+
+        memoryPool = new MemoryPool(Resources.Load<GameObject>(unitName[Random.Range(0, 2)]));
+    }
+
+    void Start()
+    {
 
         StartCoroutine(Create());
     }
@@ -22,12 +29,13 @@ public class CreateUnit : MonoBehaviour
         {
             yield return wait;
 
-            Instantiate(Resources.Load<GameObject>
-            (
-                unitName[Random.Range(0, 2)]),
-                Random.insideUnitCircle.normalized * 5,
-                Quaternion.identity
-            );
+            GameObject monster = Resources.Load<GameObject>(unitName[Random.Range(0, 2)]);
+
+            monster = memoryPool.ActivatePoolItem();
+
+            monster.GetComponent<Monster>().SetUp(memoryPool);
+
+            monster.transform.position = Random.insideUnitCircle.normalized * 7.5f;
         }
     }
 
