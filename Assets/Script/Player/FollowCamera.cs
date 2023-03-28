@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class FollowCamera : MonoBehaviour
 {
-    Camera mainCamera;
+    [SerializeField] float speed = 1f;
     [SerializeField] Vector3 offset;
     [SerializeField] GameObject character;
 
     private void Start()
     {
-        mainCamera = GetComponent<Camera>();
-
         offset = transform.position - character.transform.position;
     }
     
     void LateUpdate()
     {
-        transform.position = character.transform.position + offset;
+        Vector3 targetPosition = character.transform.position + offset;
+
+        transform.position = Vector3.Lerp(transform.position, targetPosition, speed * Time.deltaTime);
     }
 }

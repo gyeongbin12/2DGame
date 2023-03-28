@@ -31,7 +31,7 @@ public class CreateUnit : MonoBehaviour
 
             GameObject monster = Resources.Load<GameObject>(unitName[Random.Range(0, 2)]);
 
-            monster = memoryPool.ActivatePoolItem();
+            monster = memoryPool.ActivatePoolItem(monster);
 
             monster.GetComponent<Monster>().SetUp(memoryPool);
 

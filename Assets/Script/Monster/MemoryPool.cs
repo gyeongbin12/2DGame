@@ -24,10 +24,10 @@ public class MemoryPool : MonoBehaviour
 
         poolItemList = new List<PoolItem>();
 
-        InstantiateObjects();
+        InstantiateObjects(this.poolObject);
     }
 
-    public void InstantiateObjects()
+    public void InstantiateObjects(GameObject poolObject)
     {
         // maxCountÀÇ °ªÀÌ 
         maxCount += increaseCount;
@@ -36,6 +36,8 @@ public class MemoryPool : MonoBehaviour
         {
             PoolItem poolItem = new PoolItem();
 
+            this.poolObject = poolObject; 
+
             poolItem.gameObject = GameObject.Instantiate(poolObject);
             poolItem.gameObject.SetActive(false);
 
@@ -43,7 +45,7 @@ public class MemoryPool : MonoBehaviour
         }
     }
 
-    public GameObject ActivatePoolItem()
+    public GameObject ActivatePoolItem(GameObject poolObject)
     {
         if (poolItemList == null)
         {
@@ -52,7 +54,7 @@ public class MemoryPool : MonoBehaviour
 
         if (maxCount == activeCount)
         {
-            InstantiateObjects();
+            InstantiateObjects(poolObject);
         }
 
         for (int i = 0; i < poolItemList.Count; i++)
