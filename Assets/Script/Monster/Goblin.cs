@@ -14,8 +14,12 @@ public class Goblin : Monster
 
     public override void Use()
     {
-        memoryPool.DeactivatePoolItem(gameObject);
+        animator.SetBool("Attack", true);
+        SoundManager.instance.Sound(SoundManager.SoundType.Attack);
+        // memoryPool.DeactivatePoolItem(gameObject);
     }
+
+
 
     public void Update()
     {

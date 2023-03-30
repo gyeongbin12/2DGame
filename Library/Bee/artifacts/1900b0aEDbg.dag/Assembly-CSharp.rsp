@@ -383,6 +383,7 @@
 "Assets/Script/Player/FollowCamera.cs"
 "Assets/Script/Player/Player.cs"
 "Assets/Script/SceneMoveManager.cs"
+"Assets/Script/SoundManager.cs"
 -langversion:9.0
 
 /deterministic

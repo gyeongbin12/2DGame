@@ -7,8 +7,6 @@ using UnityEngine;
 public class Data
 {
     public int score;
-    const int a;
-    readonly 
 }
 
 public class DataManager : MonoBehaviour

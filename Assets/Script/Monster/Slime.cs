@@ -12,6 +12,15 @@ public class Slime : Monster
         base.Start();
     }
 
+    public override void Use()
+    {
+        SoundManager.instance.Sound(SoundManager.SoundType.Attack);
+
+        animator.SetBool("Attack", true);
+        // memoryPool.DeactivatePoolItem(gameObject);
+    }
+
+
     public void Update()
     {
         direction = transform.position - player.position;
