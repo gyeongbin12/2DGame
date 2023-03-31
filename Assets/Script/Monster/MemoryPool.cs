@@ -16,8 +16,12 @@ public class MemoryPool : MonoBehaviour
     private GameObject poolObject;         // 오브젝트 풀링에서 관리하는 게임 오브젝트
     private List<PoolItem> poolItemList;   // 모든 오브젝트를 관리하고 저장하는 리스트
 
+
+    LinkedList<int> a = new LinkedList<int>();
+
     public MemoryPool(GameObject poolObject)
     {
+
         maxCount = 0;
         activeCount = 0;
         this.poolObject = poolObject;

@@ -19,8 +19,6 @@ public class Goblin : Monster
         // memoryPool.DeactivatePoolItem(gameObject);
     }
 
-
-
     public void Update()
     {
         direction = transform.position - player.position;

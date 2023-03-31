@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +15,9 @@ public class Player : MonoBehaviour
     private Material originalMaterial;
     private SpriteRenderer spriteRenderer;
 
-    private WaitForSeconds wait = new WaitForSeconds(0.125f); 
+    private WaitForSeconds wait = new WaitForSeconds(0.125f);
+
+    static public Action<Monster> function;
 
     private void Start()
     {
@@ -23,11 +26,14 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
 
         originalMaterial = spriteRenderer.material;
+
+        function = Damage;
     }
 
     public void Damage(Monster monster)
     {
         health -= monster.attack;
+        Debug.Log(health);
     }
 
     void Update()
@@ -58,6 +64,13 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Vector3 convertedPosition = Camera.main.WorldToViewportPoint(rigidbody2D.position);
+
+        convertedPosition.x = Mathf.Clamp(convertedPosition.x, 0.035f, 0.965f);
+        convertedPosition.y = Mathf.Clamp(convertedPosition.y, 0.075f, 0.9125f);
+
+        rigidbody2D.position = Camera.main.ViewportToWorldPoint(convertedPosition);
+        
         rigidbody2D.velocity = direction.normalized
             * speed * Time.fixedDeltaTime;
     }
@@ -69,24 +82,16 @@ public class Player : MonoBehaviour
         yield return wait;
 
         spriteRenderer.material = originalMaterial;
-
     }
-    
     
     public void OnTriggerEnter2D(Collider2D collision)
     {
         IAttack obj = collision.GetComponent<IAttack>();
 
-        var monster = collision.GetComponent<Monster>();
-
         if (obj != null)
         {
             StartCoroutine(Flash());
             obj.Use();
-            Damage(monster);
-            
-            monster.AttackHandler = Damage
-  
         }
     }
 }

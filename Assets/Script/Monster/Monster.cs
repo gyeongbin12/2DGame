@@ -6,8 +6,7 @@ public class Monster : MonoBehaviour, IAttack
 {
     public int attack;
     public Animator animator;
-    public Action<> void AttackHandler(Monster monster);
-
+ 
     protected int health; 
     protected float speed;
     protected Transform player;
@@ -18,7 +17,7 @@ public class Monster : MonoBehaviour, IAttack
 
     void Awake()
     {
-        AttackHandler attackHandler;
+
     }
 
     protected virtual void Start()
@@ -27,6 +26,11 @@ public class Monster : MonoBehaviour, IAttack
         animator = GetComponent<Animator>();    
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.Find("Character").GetComponent<Transform>();
+    }
+
+    public void Damage()
+    {
+        Player.function(this);
     }
     
     virtual public void Use()
