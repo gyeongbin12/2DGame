@@ -1,0 +1,395 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Administrator/Desktop/2DProject1/game/2DGame
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+64974
+Successfully changed project path to: C:/Users/Administrator/Desktop/2DProject1/game/2DGame
+C:/Users/Administrator/Desktop/2DProject1/game/2DGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8536] Host "[IP] 192.168.0.214 [Port] 0 [Flags] 2 [Guid] 3395989480 [EditorId] 3395989480 [Version] 1048832 [Id] WindowsEditor(7,I-15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8536] Host "[IP] 192.168.0.214 [Port] 0 [Flags] 2 [Guid] 3395989480 [EditorId] 3395989480 [Version] 1048832 [Id] WindowsEditor(7,I-15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 115.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/2DProject1/game/2DGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003437 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 124.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\2DProject1\game\2DGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\2DProject1\game\2DGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 127.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4865ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (4599ms)
+			LoadAssemblies (2151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (711ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (953ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.2 KB). Loaded Objects now: 4240.
+Memory consumption went from 143.6 MB to 143.4 MB.
+Total: 4.095200 ms (FindLiveObjects: 0.434800 ms CreateObjectMapping: 0.266000 ms MarkObjects: 3.219300 ms  DeleteObjects: 0.174200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 835.846764 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/HealingPotion.png
+  artifactKey: Guid(ee1724ab630d24cebb282289abcf17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/HealingPotion.png using Guid(ee1724ab630d24cebb282289abcf17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea6a28b76be800acbd9b19331dd7107') in 0.121404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Ribbin.png
+  artifactKey: Guid(e15c747cc430643dfa4425a3059f64df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Ribbin.png using Guid(e15c747cc430643dfa4425a3059f64df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6f1469e8215582c82e9dafc8477776') in 0.022750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/StickyOil.png
+  artifactKey: Guid(385c8169ce4b44531809088328092211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/StickyOil.png using Guid(385c8169ce4b44531809088328092211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248750f4a335a74b0ae499105ff6a29c') in 0.017788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/WarriorStarterKid.png
+  artifactKey: Guid(9304811fdd9f14304ba452864fb0719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/WarriorStarterKid.png using Guid(9304811fdd9f14304ba452864fb0719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9e2f9b1d1a226f9f84ee2b56827e3a') in 0.022675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/SpiritRobe.png
+  artifactKey: Guid(438446d700ad34b2aab5b17205ce287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/SpiritRobe.png using Guid(438446d700ad34b2aab5b17205ce287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35985dc6019c809e359242bc2e6980b8') in 0.017884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Drybean.png
+  artifactKey: Guid(6027e28238ebb4744bfab49ddf89952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Drybean.png using Guid(6027e28238ebb4744bfab49ddf89952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b587bf1bbf9e177738f6dea46e3b2d') in 0.022376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Snowflake.png
+  artifactKey: Guid(c5a5c9af2982f4b5d8d0dbef15cded89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Snowflake.png using Guid(c5a5c9af2982f4b5d8d0dbef15cded89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6916e2a52f361385432965a7b93922a8') in 0.019948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/LesserArcane.png
+  artifactKey: Guid(3d25e3540ef2540b781c8cd914a95397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/LesserArcane.png using Guid(3d25e3540ef2540b781c8cd914a95397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0449d9782d6bf56a3ab3ad6523fdd6bb') in 0.021537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Bag.png
+  artifactKey: Guid(ddabdfafe460547878641801c009cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Bag.png using Guid(ddabdfafe460547878641801c009cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea95e73e9cfa13810bf4e284db5bbe4') in 0.028769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/SpiritCrystal.png
+  artifactKey: Guid(9e28a7d8330a74cbb8ecf0ea6ba8820a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/SpiritCrystal.png using Guid(9e28a7d8330a74cbb8ecf0ea6ba8820a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ca8a0f3e335b092fc6de3deb5e4944') in 0.017047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/CookieShield.png
+  artifactKey: Guid(bf42915795c7941c3a9dc79218497b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/CookieShield.png using Guid(bf42915795c7941c3a9dc79218497b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1b60416a68e0abc857b51349d0804a') in 0.014181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/GingerBread.png
+  artifactKey: Guid(d06b6f6b738e3456f96d51a5c3323f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/GingerBread.png using Guid(d06b6f6b738e3456f96d51a5c3323f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584f112447054692f274fe8b50de3d52') in 0.014732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/LesserHealingPotion.png
+  artifactKey: Guid(9bd9f1e9df8e14bdea351dfb350ddc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/LesserHealingPotion.png using Guid(9bd9f1e9df8e14bdea351dfb350ddc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a57a139ec97af71d7aeca2ccae8fa7a') in 0.019458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/MagicStar.png
+  artifactKey: Guid(5774fd719d3f4406a88a3714c45ce097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/MagicStar.png using Guid(5774fd719d3f4406a88a3714c45ce097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8224666d824602240e04b5194972dcd3') in 0.014737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Candycane.png
+  artifactKey: Guid(4abdf30d55a864d5aad3285f2bf3b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Candycane.png using Guid(4abdf30d55a864d5aad3285f2bf3b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed2927a2cafd6ec453deb5bd43e1a04') in 0.014617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/LesserCastingScroll.png
+  artifactKey: Guid(161aebb34ee9440afa2344a2c402b8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/LesserCastingScroll.png using Guid(161aebb34ee9440afa2344a2c402b8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2fdd0412f62c74b5d0f1aa681a115') in 0.017067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/YellowGiftBox.png
+  artifactKey: Guid(3972801b1b9d140b98ee2a9d5349eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/YellowGiftBox.png using Guid(3972801b1b9d140b98ee2a9d5349eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35d94755caa09faa687fbdd2d7cba01') in 0.015589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Elixir.png
+  artifactKey: Guid(f80d62402a1934f6485720a5d98d600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Elixir.png using Guid(f80d62402a1934f6485720a5d98d600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f9cd6d77abf10ca68f1bafeb5a6ad3') in 0.015699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/HugeSharpnessFragment.png
+  artifactKey: Guid(cf14558b4e18843d3a2df64c787d8286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/HugeSharpnessFragment.png using Guid(cf14558b4e18843d3a2df64c787d8286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bedbde8ccc3fc0faa80e6a05ffe6cec') in 0.017369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/LesserPrayer.png
+  artifactKey: Guid(7e014759b47794e55b8a8ec42ab79f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/LesserPrayer.png using Guid(7e014759b47794e55b8a8ec42ab79f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c67d4b296c562061fbf0456911df17') in 0.017656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/WarriorPackage.png
+  artifactKey: Guid(1a57275080d5f456f90ed3288e7cbf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/WarriorPackage.png using Guid(1a57275080d5f456f90ed3288e7cbf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcbd58ab5197a27f2e89ef88e0e3e68') in 0.017296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/SharpnessFragment.png
+  artifactKey: Guid(2ebc775d915e44252b7b10bb19bae197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/SharpnessFragment.png using Guid(2ebc775d915e44252b7b10bb19bae197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a2994082bee7e6ffab6da02f5c87af') in 0.016090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Overwind.png
+  artifactKey: Guid(315ae634337024a13bd42fadd27f8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Overwind.png using Guid(315ae634337024a13bd42fadd27f8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35765eb01fb24fe48382df89af9d802') in 0.017563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/QuicknessFragment.png
+  artifactKey: Guid(5a406b2b036474f3ba1c04a948c6d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/QuicknessFragment.png using Guid(5a406b2b036474f3ba1c04a948c6d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb6900d77ae726762c8ce54ea1653a4') in 0.027162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/_Shade.png
+  artifactKey: Guid(a1c6b89f0c3fc4b9d9cbc6fcc044fc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/_Shade.png using Guid(a1c6b89f0c3fc4b9d9cbc6fcc044fc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7501bb67840c404cdfe667623464ff89') in 0.026590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Talon.png
+  artifactKey: Guid(80816007c7e1148f9a12edc61d693895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Talon.png using Guid(80816007c7e1148f9a12edc61d693895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b5cc6f210aad34daaa85fbf684e5c') in 0.023063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/MudLump.png
+  artifactKey: Guid(cbc044f86efad44bd95c83cdbe7e61e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/MudLump.png using Guid(cbc044f86efad44bd95c83cdbe7e61e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ab544b05d1956ae925e35f013e9d93') in 0.020564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/OilCrow.png
+  artifactKey: Guid(ec10851ae68aa44469bd3acdaf132b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/OilCrow.png using Guid(ec10851ae68aa44469bd3acdaf132b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12839b3752711529bb823f37036be093') in 0.019378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/HugePowerFragment.png
+  artifactKey: Guid(1f4e0442942964fb5a4b3094cf0b9435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/HugePowerFragment.png using Guid(1f4e0442942964fb5a4b3094cf0b9435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8237bdc7c06eb581e729ab60ffac550f') in 0.018706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/ShortKey.png
+  artifactKey: Guid(47cdce8201da24383bf0383a08e95a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/ShortKey.png using Guid(47cdce8201da24383bf0383a08e95a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225f8e854589a1480c9a431f071a35c3') in 0.020250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/LesserMana.png
+  artifactKey: Guid(d90e197bcaf0147c9866a54a84327f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/LesserMana.png using Guid(d90e197bcaf0147c9866a54a84327f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4e16c20c4e3b607e28bbde58240bc5') in 0.017284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/LesserPower.png
+  artifactKey: Guid(4aed2269993084dda83f30f420dae746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/LesserPower.png using Guid(4aed2269993084dda83f30f420dae746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e1b36aad0409fb31be94b25060127e') in 0.017940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Rock.png
+  artifactKey: Guid(e5f3437a4ee8d4d7699855d708eac35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Rock.png using Guid(e5f3437a4ee8d4d7699855d708eac35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92a353416e0360d4e8bb07d213bc463') in 0.016926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Crystal.png
+  artifactKey: Guid(b25f87142874845d5bf539d5f4238565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Crystal.png using Guid(b25f87142874845d5bf539d5f4238565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0517152ddecdc2a7a3076628c229a9') in 0.017606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/Red Bubble.png
+  artifactKey: Guid(983fdda9413da4bb6a1dafb9905d6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/Red Bubble.png using Guid(983fdda9413da4bb6a1dafb9905d6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afd195acf95ce21a587ba3a7d8a06f9') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/CoinBag.png
+  artifactKey: Guid(96168f596ede54c64a7938a56b5927ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/CoinBag.png using Guid(96168f596ede54c64a7938a56b5927ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4100291da943ab134d8c6a14a23c37') in 0.018325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/EXPTicket.png
+  artifactKey: Guid(185b077b83b1e48429b417716b81c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/EXPTicket.png using Guid(185b077b83b1e48429b417716b81c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bfa9d80ded25481dd1e6e3f8fc591c') in 0.014432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/113 2D Item Icon Pack/Sprite/HugeResistFragment.png
+  artifactKey: Guid(cbce8c2bef3424f74ad0e6c3e8919ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/113 2D Item Icon Pack/Sprite/HugeResistFragment.png using Guid(cbce8c2bef3424f74ad0e6c3e8919ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf92b4f8bf9cc7b86ccec2834d9402a6') in 0.015494 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

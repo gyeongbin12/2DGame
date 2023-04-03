@@ -23,14 +23,7 @@ public class Goblin : Monster
     {
         direction = transform.position - player.position;
 
-        if (direction.x > 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else if (direction.x < 0)
-        {
-            spriteRenderer.flipX = false;
-        }
+        Util.Flip(direction, spriteRenderer, true);
 
         transform.position = Vector3.MoveTowards(transform.position, player.position, Time.deltaTime * speed);
     }

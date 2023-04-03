@@ -25,14 +25,8 @@ public class Slime : Monster
     {
         direction = transform.position - player.position;
 
-        if (direction.x > 0)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else if (direction.x < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
+
+        Util.Flip(direction, spriteRenderer, false);
 
         transform.position = Vector3.MoveTowards(transform.position, player.position, Time.deltaTime * speed);
     }

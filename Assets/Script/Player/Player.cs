@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public partial class Player : MonoBehaviour
 {
     [SerializeField] float speed = 1.0f;
     [SerializeField] int health = 100;
@@ -34,32 +34,6 @@ public class Player : MonoBehaviour
     {
         health -= monster.attack;
         Debug.Log(health);
-    }
-
-    void Update()
-    {
-        direction.x = Input.GetAxisRaw("Horizontal");
-        direction.y = Input.GetAxisRaw("Vertical");
-
-        if (rigidbody2D.velocity == Vector2.zero)
-        {
-            animator.SetBool("Run", false);
-        }
-        else
-        {
-            animator.SetBool("Run", true);
-        }
-        
-        if(direction.x > 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else if(direction.x < 0)
-        {
-            spriteRenderer.flipX = false;
-        }
-
-        
     }
 
     private void FixedUpdate()
