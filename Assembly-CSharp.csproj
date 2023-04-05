@@ -58,21 +58,21 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Monster\Goblin.cs" />
     <Compile Include="Assets\Script\Monster\CreateUnit.cs" />
+    <Compile Include="Assets\Script\Weapon\VioletFire.cs" />
+    <Compile Include="Assets\Script\Player\Player.Behaviour.cs" />
+    <Compile Include="Assets\Script\Weapon\Weapon.cs" />
+    <Compile Include="Assets\Script\Util.cs" />
     <Compile Include="Assets\Script\Monster\Monster.cs" />
     <Compile Include="Assets\Script\SoundManager.cs" />
     <Compile Include="Assets\Script\Monster\Slime.cs" />
     <Compile Include="Assets\Script\Player\Player.cs" />
+    <Compile Include="Assets\Script\Weapon\WeaponManager.cs" />
     <Compile Include="Assets\Script\Monster\InterfaceManager.cs" />
     <Compile Include="Assets\Script\MemoryPool.cs" />
     <Compile Include="Assets\Script\SceneMoveManager.cs" />
     <Compile Include="Assets\Script\Player\FollowCamera.cs" />
     <Compile Include="Assets\Script\Player\DataManager.cs" />
-    <Compile Include="Assets\Script\Weapon\Weapon.cs" />
-    <Compile Include="Assets\Script\Weapon\WeaponManager.cs" />
-    <Compile Include="Assets\Script\Weapon\VioletFire.cs" />
     <Compile Include="Assets\Script\Weapon\SpiritCore.cs" />
-    <Compile Include="Assets\Script\Util.cs" />
-    <Compile Include="Assets\Script\Player\Player.Behaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

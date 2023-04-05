@@ -13,9 +13,18 @@ public class FollowCamera : MonoBehaviour
         offset = transform.position - character.transform.position;
     }
     
-    void LateUpdate()
+    void FixedUpdate()
     {
-        Vector3 targetPosition = character.transform.position + offset;
+      
+            Vector3 targetPosition = new Vector3         
+            (
+                character.transform.position.x,
+                character.transform.position.y,
+                this.transform.position.z
+            );
+
+        targetPosition.x = Mathf.Clamp(targetPosition.x, minCameraBoundary.x, maxCameraBoundary.x);
+        targetPosition.y = Mathf.Clamp(targetPosition.y, minCameraBoundary.y, maxCameraBoundary.y);
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, speed * Time.deltaTime);
     }

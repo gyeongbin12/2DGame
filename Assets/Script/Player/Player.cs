@@ -2,12 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public partial class Player : MonoBehaviour
 {
     [SerializeField] float speed = 1.0f;
-    [SerializeField] int health = 100;
+
+
+    [SerializeField] float health = 100;
+    private float maxHealth;
+
     [SerializeField] Material flashMaterial;
+    [SerializeField] Slider healhtSlider;
 
     private Vector2 direction;
     private Animator animator;
@@ -21,6 +27,8 @@ public partial class Player : MonoBehaviour
 
     private void Start()
     {
+        maxHealth = health;
+
         spriteRenderer = GetComponent<SpriteRenderer>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -32,8 +40,11 @@ public partial class Player : MonoBehaviour
 
     public void Damage(Monster monster)
     {
+        StartCoroutine(Flash());
+
         health -= monster.attack;
-        Debug.Log(health);
+        
+        healhtSlider.value = health / maxHealth;
     }
 
     private void FixedUpdate()
