@@ -8,6 +8,9 @@ public class FollowCamera : MonoBehaviour
     [SerializeField] Vector3 offset;
     [SerializeField] GameObject character;
 
+    [SerializeField] Vector2 minCameraBoundary;
+    [SerializeField] Vector2 maxCameraBoundary;
+
     private void Start()
     {
         offset = transform.position - character.transform.position;

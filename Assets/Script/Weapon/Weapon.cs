@@ -6,13 +6,18 @@ public class Weapon
 {
     private IWeapon weapon;
 
+    public Sprite WeaponShape(string name)
+    {
+        return Resources.Load<Sprite>(name);
+    }
+
     public void SetWeapon(IWeapon weapon)
     {
         this.weapon = weapon;
     }
 
-    public void Attack()
+    public void Attack(GameObject obj)
     {
-        weapon.Attack();
+        weapon.Attack(obj);
     }
 }

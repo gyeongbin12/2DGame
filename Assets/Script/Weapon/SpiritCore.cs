@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpiritCore : IWeapon
 {
-    public void Attack()
+    public void Attack(GameObject obj)
     {
-        Debug.Log("SpiritCore");
+        obj.transform.RotateAround(obj.transform.parent.position, Vector3.forward, 100f * Time.deltaTime);
     }
 }
